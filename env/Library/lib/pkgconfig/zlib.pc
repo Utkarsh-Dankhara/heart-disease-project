@@ -1,0 +1,13 @@
+prefix=c:/Coding Grounds/heart-disease-project/env/Library
+exec_prefix=c:/Coding Grounds/heart-disease-project/env/Library
+libdir=c:/Coding Grounds/heart-disease-project/env/Library/lib
+sharedlibdir=c:/Coding Grounds/heart-disease-project/env/Library/lib
+includedir=c:/Coding Grounds/heart-disease-project/env/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
